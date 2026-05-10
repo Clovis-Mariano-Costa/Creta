@@ -1,0 +1,2 @@
+CRETA site completo v1.2
+Atualização: página Fundador, origem bíblica do nome e formulário via Cloudflare Pages Functions.
