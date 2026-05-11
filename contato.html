@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contato | CRETA</title>
-  <meta name="description" content="Canais oficiais de contato do CRETA." />
+  <title>Contato — CRETA</title>
+  <meta name="description" content="Contato do CRETA, WhatsApp, e-mail, endereço, mapa e formulário." />
+  <link rel="icon" href="assets/img/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta property="og:title" content="Contato — CRETA" />
+  <meta property="og:description" content="Contato do CRETA, WhatsApp, e-mail, endereço, mapa e formulário." />
+  <meta property="og:image" content="assets/img/logo-creta-novo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
-  
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -23,25 +27,27 @@
     <nav class="navbar" aria-label="Navegação principal">
       <div class="container navbar__inner">
         <a class="brand" href="index.html" aria-label="Página inicial do CRETA">
-          <span class="brand__mark">C</span>
+          <img class="brand__logo" src="assets/img/logo-creta-novo.webp" alt="Logo CRETA">
           <span><strong>CRETA</strong><small>Centro de Recuperação</small></span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">Menu</button>
-        <div class="navlinks" id="menu-principal"><a class="" href="index.html">Início</a><a class="" href="quem-somos.html">Quem Somos</a><a class="" href="fundador.html">Fundador</a><a class="" href="nosso-programa.html">Nosso Programa</a><a class="" href="nossa-estrutura.html">Estrutura</a><a class="" href="breves-relatos.html">Relatos</a><a class="" href="perguntas-frequentes.html">Perguntas Frequentes</a><a class="is-active" href="contato.html">Contato</a></div>
+        <div class="navlinks" id="menu-principal"><a class="" href="index.html">Início</a><a class="" href="quem-somos.html">Quem Somos</a><a class="" href="fundador.html">Fundador</a><a class="" href="nosso-programa.html">Programa</a><a class="" href="nossa-estrutura.html">Estrutura</a><a class="" href="breves-relatos.html">Relatos</a><a class="" href="memoria-visual.html">Memória Visual</a><a class="" href="creta-em-video.html">Vídeos</a><a class="" href="trabalho-charlieecho.html">Charlie Echo</a><a class="" href="contato.html">Contato</a></div>
       </div>
     </nav>
   </header>
   <main id="conteudo">
 
-    <section class="page-hero"><div class="container"><p class="eyebrow">Contato</p><h1>Fale com o CRETA.</h1><p class="lead">Para pedir orientação, informações sobre triagem ou contato institucional, utilize os canais oficiais abaixo.</p></div></section>
-    <section class="section"><div class="container contact-grid"><div class="contact-card"><h2>Atendimento</h2><p><strong>Telefone/WhatsApp</strong><br><a href="https://wa.me/5548984037367" target="_blank" rel="noopener">+55 (48) 98403-7367</a></p><p><strong>E-mail</strong><br><a href="mailto:contato@creta.org.br">contato@creta.org.br</a></p><p><strong>Endereço</strong><br>BR-101, Km 229,8 — Praia de Fora, Palhoça — SC, Brasil — CEP 88.130-001</p><div class="actions"><a class="btn btn--primary" href="https://wa.me/5548984037367" target="_blank" rel="noopener">Chamar no WhatsApp</a><a class="btn btn--secondary" href="mailto:contato@creta.org.br">Enviar e-mail</a></div></div><form class="contact-form" action="/api/contact" method="post" data-contact-form><h2>Mensagem rápida</h2><label>Nome<input name="nome" type="text" placeholder="Seu nome" required /></label><label>Telefone ou WhatsApp<input name="telefone" type="text" placeholder="Seu telefone" required /></label><label>E-mail<input name="email" type="email" placeholder="seu@email.com" /></label><label>Mensagem<textarea name="mensagem" rows="6" placeholder="Escreva sua mensagem" required></textarea></label><label class="hp-field" aria-hidden="true">Não preencha este campo<input name="empresa" type="text" tabindex="-1" autocomplete="off" /></label><button class="btn btn--primary" type="submit">Enviar mensagem</button><p class="muted">Este formulário está preparado para envio direto via Cloudflare Pages Functions para contato@creta.org.br. Após publicar, configure a chave do serviço de e-mail conforme o README.</p><p class="form-status" data-contact-status hidden></p></form></div></section>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Contato</p><h1>Como pedir orientação.</h1><p class="lead">Entre em contato com o CRETA para informações iniciais sobre acolhimento, triagem e orientação familiar.</p></div></section>
+    <section class="section"><div class="container contact-grid"><div class="contact-card"><h2>Fale com o CRETA</h2><p><strong>WhatsApp:</strong><br><a href="https://wa.me/5548984037367" target="_blank" rel="noopener">+55 (48) 98403-7367</a></p><p><strong>E-mail:</strong><br><a href="mailto:contato@creta.org.br">contato@creta.org.br</a></p><p><strong>Endereço:</strong><br>BR-101, Km 229,8 — Praia de Fora, Palhoça — SC, Brasil — CEP 88.130-001</p><p class="notice">Em caso de risco imediato à vida ou emergência, procure atendimento humano e serviço de emergência.</p></div><form class="contact-form" action="/api/contact" method="post"><h2>Mensagem rápida</h2><label>Nome<input name="nome" required></label><label>Telefone/WhatsApp<input name="telefone" required></label><label>E-mail<input name="email" type="email"></label><label>Mensagem<textarea name="mensagem" rows="6" required></textarea></label><label class="hp-field">Empresa<input name="empresa" tabindex="-1" autocomplete="off"></label><button class="btn btn--primary" type="submit">Enviar mensagem</button><p class="muted">Ao enviar, você concorda com o tratamento dos dados para resposta ao contato, conforme a política de privacidade.</p></form></div></section>
+    <section class="section section--soft"><div class="container"><p class="eyebrow">Como chegar</p><h2>Mapa do CRETA</h2><iframe class="map-embed" title="Mapa do CRETA" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=BR-101%2C%20Km%20229%2C8%20Praia%20de%20Fora%2C%20Palho%C3%A7a%20SC%2C%20Brasil&output=embed"></iframe><div class="actions"><a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&query=BR-101%2C%20Km%20229%2C8%20Praia%20de%20Fora%2C%20Palho%C3%A7a%20SC%2C%20Brasil" target="_blank" rel="noopener">Abrir no Google Maps</a></div></div></section>
 
   </main>
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a class="brand brand--footer" href="index.html"><span class="brand__mark">C</span><span><strong>CRETA</strong><small>Centro de Recuperação de Toxicômanos e Alcoolistas</small></span></a>
+        <a class="brand brand--footer" href="index.html"><img class="brand__logo" src="assets/img/logo-creta-novo.webp" alt="Logo CRETA"><span><strong>CRETA</strong><small>Centro de Recuperação de Toxicômanos e Alcoolistas</small></span></a>
         <p>Instituição dedicada ao acolhimento, orientação e apoio a pessoas e famílias que enfrentam problemas relacionados ao álcool e outras drogas.</p>
+        <p class="footer-note">Site atualizado com apoio da Jus9 Verde, braço social da Jus 9 Tecnologia Jurídica.</p>
       </div>
       <div>
         <h2>Contato</h2>
@@ -51,14 +57,15 @@
       </div>
       <div>
         <h2>Links úteis</h2>
+        <p><a href="memoria-visual.html">Memória Visual do CRETA</a></p>
+        <p><a href="creta-em-video.html">CRETA em Vídeo</a></p>
+        <p><a href="trabalho-charlieecho.html">Trabalho para Charlie Echo</a></p>
         <p><a href="politica-de-privacidade-e-cookies.html">Política de Privacidade e Cookies</a></p>
-        <p><a href="fundador.html">Fundador</a></p>
-        <p><a href="perguntas-frequentes.html">Perguntas frequentes</a></p>
-        <p><a href="contato.html">Como pedir ajuda</a></p>
+        <p><a href="https://charlieecho.jus9tecnologia.com.br" target="_blank" rel="noopener">Charlie Echo</a></p>
       </div>
     </div>
     <div class="container footer-bottom">
-      <small>© 2026 CRETA. Primeira versão estática reconstruída com base no material público existente.</small>
+      <small>© 2026 CRETA. Site institucional atualizado preservando a memória e a essência da obra.</small>
       <a href="#topo">Voltar ao topo</a>
     </div>
   </footer>

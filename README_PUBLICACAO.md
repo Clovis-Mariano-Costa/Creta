@@ -66,3 +66,8 @@ Para o envio direto funcionar em produção:
 5. Reimplantar o projeto.
 
 Observação: Cloudflare Pages Functions executa código no ambiente Workers. Para envio de e-mail, esta versão usa Resend via API HTTPS. O remetente precisa estar autorizado/verificado no serviço de e-mail.
+
+
+## Atualização CRETA v2.0
+
+Ver `RELATORIO_ATUALIZACAO_CRETA_v2_0.md` para detalhes da atualização de identidade visual, Memória Visual, CRETA em Vídeo e Trabalho para Charlie Echo.
