@@ -1,17 +1,21 @@
 # Sugestão de commit
 
+## Repertório
+
+`Creta`
+
 ## Summary
 
 ```txt
-docs: registrar cautela Cloudflare para CRETA
+docs: alinhar CRETA à governança de publicação segura
 ```
 
 ## Description
 
 ```txt
-Registra no repertório CRETA a orientação de infraestrutura Cloudflare: usar Pages para páginas estáticas quando adequado e Workers apenas quando houver funções, formulários, APIs, backend ou integrações sensíveis.
+Alinha CRETA à governança de publicação segura, LGPD, revisão humana, separação entre conteúdo público e dados sensíveis e remoção de arquivos técnicos indevidos.
 
-Mantém o CRETA separado dos conteúdos internos da Jus 9 e da Charlie Echo, preservando acolhimento, privacidade, revisão humana e proteção de dados.
+Inclui arquivos de governança, segurança, classificação de conteúdo, instruções para Charlie, .gitignore, .env.example, manifesto e sugestão de commit.
 
-Inclui nota de segurança para não publicar secrets, tokens, senhas, .env real ou dados protegidos.
+Este commit encerra o Pacote Governança em pré-Mão na Massa e prepara a base para o próximo pacote de alterações visuais.
 ```

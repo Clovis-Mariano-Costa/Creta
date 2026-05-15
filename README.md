@@ -1,17 +1,17 @@
-# Creta
+# CRETA
 
+## Repertório
 
----
+`Creta`
 
-## Autoria, licença e DNA de referência
+## Status
 
-Este repositório integra o ecossistema da **Jus 9 Tecnologia Jurídica**.
+existente
 
-Software livre com autoria preservada: a licença de uso não remove a autoria,
-a origem, a assinatura institucional nem os direitos autorais da Jus 9 Tecnologia Jurídica.
+## Fase
 
-- Repositório: `Creta`
-- Referência oficial: https://www.creta.org.br/
-- E-mail de contato: clovis@jus9tecnologia.com.br
-- DNA de referência de Charlie Echo da Costa: `charlieecho-jus9-tecnologia-juridica`
+Pré-Mão na Massa — Pacote Governança encerrado.
 
+## Finalidade
+
+Alinha CRETA à governança de publicação segura, LGPD, revisão humana, separação entre conteúdo público e dados sensíveis e remoção de arquivos técnicos indevidos.
