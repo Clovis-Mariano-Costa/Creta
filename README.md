@@ -1,17 +1,9 @@
 # CRETA
 
-## Repertório
+Repertório: `Creta`
 
-`Creta`
+Status: existente
 
-## Status
+Mão na Massa Final — padrão visual, assinatura, governança e orientação obrigatória.
 
-existente
-
-## Fase
-
-Pré-Mão na Massa — Pacote Governança encerrado.
-
-## Finalidade
-
-Alinha CRETA à governança de publicação segura, LGPD, revisão humana, separação entre conteúdo público e dados sensíveis e remoção de arquivos técnicos indevidos.
+© Jus 9 Tecnologia Jurídica — software livre, autoria preservada.
